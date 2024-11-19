@@ -6,8 +6,54 @@
     <title>Student Management App - Day 2</title>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>Welcome to the Student Management App Project!</p>
-    <script src="main.js"></script>
+    <!-- NAV BAR -->
+    <nav>
+        <div class="logo">
+            <img src="./teckas_logo.jpg" alt="logo">
+            <h1>Student Management</h1>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#student-list">Student List</a></li>
+            <li><a href="#add-student">Add Student</a></li>
+        </ul>
+    </nav>
+
+    <!-- STUDENTS LIST -->
+
+    <section id="student-list">
+        <h2>Student List</h2>
+        <ul>
+            <li>Ranjith</li>
+            <li>Karthik</li>
+            <li>Santhosh</li>
+        </ul>
+    </section>
+
+    <!-- ADD STUDENTS -->
+
+    <section id="add-student">
+        <h2>Add Student</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Student Name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Student Email" required>
+            <br>
+            <button type="submit">Add Student</button>
+        </form>
+    </section>
+
+    <!-- FOOTER  -->
+
+    <footer>
+        <h2>Copyright &copy; 2024. Job Ready Devs held by <a href="https://teckastechnologies.com/" target="_blank">Teckas Technologies!</a></h2>
+    </footer>
+
+
+    <!-- SCRIPT -->
+
+    <script src="./main.js"></script>
 </body>
 </html>
